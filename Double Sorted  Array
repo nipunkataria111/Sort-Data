@@ -1,0 +1,23 @@
+package excelProjectTestbed;
+import java.util.*;
+
+class sortArrayW12D5 {
+
+	public static void main(String[] arguments) {
+		
+		List<Float> testList = new ArrayList();
+				
+		testList.add(2.11f);
+		testList.add(7.73f);
+		testList.add(9.0f);
+		testList.add(0.01f);
+		
+	     System.out.println("--> The original order was:" + testList);
+	     Collections.sort(testList);
+	     System.out.println("\n \n --> The sorted order is:" + testList);
+	     Collections.reverse(testList);
+//Arrays.reverse(data);
+	     System.out.println("\n \n --> The reverse order is:" + testList);
+	    
+	   }
+	}
