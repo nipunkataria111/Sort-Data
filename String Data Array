@@ -1,0 +1,28 @@
+package excelProjectTestbed;
+import java.util.*;
+import java.util.Collections;
+
+public class W12D5_StringSort {
+
+
+		public static void main(String[] args) {
+			
+			List<String> testList = new ArrayList();
+					
+			testList.add("Keshav");
+			testList.add("Deepesh");
+			testList.add("Shivam");
+			testList.add("Abhinav");
+			testList.add("Nipun");
+			
+		     System.out.println("--> The original order was:" + testList);
+		     Collections.sort(testList);
+		     System.out.println("\n \n --> The sorted order is:" + testList);
+		     Collections.reverse(testList);
+	//Arrays.reverse(data);
+		     System.out.println("\n \n --> The reverse order is:" + testList);
+		    
+		   }
+		}
+
+
